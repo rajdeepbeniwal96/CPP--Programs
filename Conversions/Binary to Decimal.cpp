@@ -1,11 +1,11 @@
-// Code to convert decimal to binary
+// Code to convert binary to decimal 
 #include <iostream>
 using namespace std;
 
 int main() {
 
     int num;
-    cout << "Enter a decimal number: ";
+    cout << "Enter a binary number: ";
     cin >> num;
     int rem, ans = 0, mul = 1;
 
@@ -18,6 +18,6 @@ int main() {
 
     }
 
-    cout << "Binary equivalent: " << ans << endl;
+    cout << "Decimal equivalent: " << ans << endl;
     return 0;
 }
